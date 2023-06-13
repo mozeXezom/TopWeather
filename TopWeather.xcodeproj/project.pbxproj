@@ -22,6 +22,7 @@
 		DAB00B322A38B3BE006FF01D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B312A38B3BE006FF01D /* WeatherViewModel.swift */; };
 		DAB00B352A38B4B0006FF01D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B342A38B4B0006FF01D /* LocationManager.swift */; };
 		DAB00B372A38B880006FF01D /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B362A38B880006FF01D /* WeatherManager.swift */; };
+		DAB00B3C2A38BA89006FF01D /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B3B2A38BA89006FF01D /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		DAB00B312A38B3BE006FF01D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		DAB00B342A38B4B0006FF01D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DAB00B362A38B880006FF01D /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		DAB00B3B2A38BA89006FF01D /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		DAB00B1F2A38ABE0006FF01D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DAB00B3B2A38BA89006FF01D /* WeatherModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				DAB00B272A38AC30006FF01D /* WeatherTableViewCell.swift in Sources */,
 				DAB00B322A38B3BE006FF01D /* WeatherViewModel.swift in Sources */,
 				DAB00B372A38B880006FF01D /* WeatherManager.swift in Sources */,
+				DAB00B3C2A38BA89006FF01D /* WeatherModel.swift in Sources */,
 				DAB00AF12A38A0A5006FF01D /* WeatherViewController.swift in Sources */,
 				DAB00B352A38B4B0006FF01D /* LocationManager.swift in Sources */,
 				DAB00B2B2A38AC4A006FF01D /* Constans.swift in Sources */,
@@ -560,6 +564,8 @@
 				DEVELOPMENT_TEAM = HLZY6MSJKT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TopWeather/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to display the correct data about your city";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to display the correct data about your city";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -588,6 +594,8 @@
 				DEVELOPMENT_TEAM = HLZY6MSJKT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TopWeather/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to display the correct data about your city";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to display the correct data about your city";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
