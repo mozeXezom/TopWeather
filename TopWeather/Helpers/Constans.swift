@@ -22,4 +22,8 @@ struct CellsName {
 struct APIConfig {
     static let apiKey = "3a629eba4146706cd3799e971a03f1ee"
     static let baseUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&appid="
+    static let foreCastUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?"
+    static let baseCastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat="
+    static let cityCastUrl = "https://api.openweathermap.org/data/2.5/forecast?q="
 }
+

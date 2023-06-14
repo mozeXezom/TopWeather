@@ -47,24 +47,6 @@ struct WeatherModel: Codable {
         return "\(wind.deg)deg"
     }
    
-    var backgroundImage: UIImage? {
-        switch weather[0].id {
-        case 200...232:
-            return UIImage(named: "thunderstorm")
-        case 300...321:
-            return UIImage(named: "rain")
-        case 500...531:
-            return UIImage(named: "rain")
-        case 600...622:
-            return UIImage(named: "snow")
-        case 701...781:
-            return UIImage(named: "fog")
-        case 801...804:
-            return UIImage(named: "clouds")
-        default:
-            return UIImage(named: "clear")
-        }
-    }
 }
 
 struct Wind: Codable {

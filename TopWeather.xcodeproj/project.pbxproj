@@ -20,9 +20,9 @@
 		DAB00B2B2A38AC4A006FF01D /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B2A2A38AC4A006FF01D /* Constans.swift */; };
 		DAB00B2E2A38B342006FF01D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B2D2A38B342006FF01D /* Alert.swift */; };
 		DAB00B322A38B3BE006FF01D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B312A38B3BE006FF01D /* WeatherViewModel.swift */; };
-		DAB00B352A38B4B0006FF01D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B342A38B4B0006FF01D /* LocationManager.swift */; };
 		DAB00B372A38B880006FF01D /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B362A38B880006FF01D /* WeatherManager.swift */; };
 		DAB00B3C2A38BA89006FF01D /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B3B2A38BA89006FF01D /* WeatherModel.swift */; };
+		DAB00B3E2A38F891006FF01D /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B3D2A38F891006FF01D /* ForecastModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +60,9 @@
 		DAB00B2A2A38AC4A006FF01D /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		DAB00B2D2A38B342006FF01D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		DAB00B312A38B3BE006FF01D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		DAB00B342A38B4B0006FF01D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DAB00B362A38B880006FF01D /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		DAB00B3B2A38BA89006FF01D /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		DAB00B3D2A38F891006FF01D /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB00B3B2A38BA89006FF01D /* WeatherModel.swift */,
+				DAB00B3D2A38F891006FF01D /* ForecastModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,7 +239,6 @@
 		DAB00B332A38B4A3006FF01D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				DAB00B342A38B4B0006FF01D /* LocationManager.swift */,
 				DAB00B362A38B880006FF01D /* WeatherManager.swift */,
 			);
 			path = Managers;
@@ -381,9 +381,9 @@
 				DAB00B372A38B880006FF01D /* WeatherManager.swift in Sources */,
 				DAB00B3C2A38BA89006FF01D /* WeatherModel.swift in Sources */,
 				DAB00AF12A38A0A5006FF01D /* WeatherViewController.swift in Sources */,
-				DAB00B352A38B4B0006FF01D /* LocationManager.swift in Sources */,
 				DAB00B2B2A38AC4A006FF01D /* Constans.swift in Sources */,
 				DAB00B2E2A38B342006FF01D /* Alert.swift in Sources */,
+				DAB00B3E2A38F891006FF01D /* ForecastModel.swift in Sources */,
 				DAB00AED2A38A0A5006FF01D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
